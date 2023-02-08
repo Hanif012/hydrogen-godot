@@ -1,3 +1,17 @@
-[gd_scene format=3 uid="uid://i2fgk81col1r"]
+[gd_scene load_steps=2 format=3 uid="uid://i2fgk81col1r"]
+
+[ext_resource type="Texture2D" uid="uid://dcu88dk647o57" path="res://src/assets/visual/Tunas.png" id="1_v8l3o"]
 
 [node name="map" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.723919, -0.612723, 0.317036, 0, 0.459549, 0.888152, -0.689885, -0.64295, 0.332676, 0.698448, 1.92464, 0.920058)
+projection = 1
+current = true
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0566795, 0)
+billboard = 1
+texture_filter = 0
+texture = ExtResource("1_v8l3o")
+hframes = 5

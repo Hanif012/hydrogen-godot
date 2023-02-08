@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="Stay Hydrated"
+run/main_scene="res://src/scene/test_ground.tscn"
 config/features=PackedStringArray("4.0", "Mobile")
 config/icon="res://icon.svg"
+
+[display]
+
+window/dpi/allow_hidpi=false
 
 [dotnet]
 
